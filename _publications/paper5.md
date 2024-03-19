@@ -1,12 +1,10 @@
 ---
-title: "Paper Title Number 4"
+title: "Exploring the disparity of influence between users in the discussion of brexit on twitter: Twitter influence disparity in brexit if so, write it here"
 collection: publications
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/Brexit
+excerpt: #'This paper is about the number 2. The number 3 is left for future work.'
+date: 2021-01-01
+venue: 'Journal of Computational Social Science'
+paperurl: #'http://academicpages.github.io/files/paper2.pdf'
+citation: 'Rajabi, A., Mantzaris, A. V., Atwal, K. S., & Garibay, I. (2021). Exploring the disparity of influence between users in the discussion of brexit on twitter: Twitter influence disparity in brexit if so, write it here. Journal of Computational Social Science, 4, 903-917.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
