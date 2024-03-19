@@ -21,7 +21,7 @@ repository               : "amirarsalan90/amirarsalan90.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "prof_pic.png"
+  avatar           : "prof_pic.jpg"
   name             : "Amirarsalan Rajabi"
   pronouns         : # example: "she/her"  
   bio              : "AI, Machine Learning"
