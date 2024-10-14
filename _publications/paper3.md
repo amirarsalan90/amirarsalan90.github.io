@@ -1,10 +1,10 @@
 ---
-title: "Tabfairgan: Fair tabular data generation with generative adversarial networks"
+title: "Through a fair looking-glass: mitigating bias in image datasets"
 collection: publications
-permalink: /publication/TabFairGAN
+permalink: /publication/Fair_looking_glass
 excerpt: #'This paper is about the number 2. The number 3 is left for future work.'
-date: 2022-01-01
-venue: 'Machine Learning and Knowledge Extraction'
+date: 2023-01-01
+venue: 'International Conference on Human-Computer Interaction'
 paperurl: #'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Rajabi, A., & Garibay, O. O. (2022). Tabfairgan: Fair tabular data generation with generative adversarial networks. Machine Learning and Knowledge Extraction, 4(2), 488-501.'
+citation: 'Rajabi, A., Yazdani-Jahromi, M., Garibay, O. O., & Sukthankar, G. (2023, July). Through a fair looking-glass: mitigating bias in image datasets. In International Conference on Human-Computer Interaction (pp. 446-459). Cham: Springer Nature Switzerland.'
 ---

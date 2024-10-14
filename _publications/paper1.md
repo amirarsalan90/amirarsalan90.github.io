@@ -1,10 +1,12 @@
 ---
-title: "Distance Correlation GAN: Fair Tabular Data Generation with Generative Adversarial Networks"
+title: "Fair Bilevel Neural Network (FairBiNN): On Balancing Fairness and Accuracy via Stackelberg Equilibrium"
 collection: publications
-permalink: /publication/Distance_Correlation
-excerpt: #'This paper is about the number 2. The number 3 is left for future work.'
-date: 2023-01-01
-venue: 'International Conference on Human-Computer Interaction'
-paperurl: #'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Rajabi, A., & Garibay, O. O. (2023, July). Distance Correlation GAN: Fair Tabular Data Generation with Generative Adversarial Networks. In International Conference on Human-Computer Interaction (pp. 431-445). Cham: Springer Nature Switzerland.'
+permalink: /publication/FairBiNN
+excerpt: 'This paper addresses the persistent challenge of bias in machine learning models, proposing a bilevel optimization approach that balances fairness and accuracy.'
+date: 2024-12-01
+venue: 'Advances in Neural Information Processing Systems (NeurIPS 2024)'
+paperurl: # 'http://academicpages.github.io/files/FairBiNN_paper.pdf'
+citation: 'Yazdani-Jahromi, M., Khodabandeh Yalabadi, A., Rajabi, A., Tayebi, A., Garibay, I., & Garibay, O. (2024). Fair Bilevel Neural Network (FairBiNN): On Balancing Fairness and Accuracy via Stackelberg Equilibrium. In Advances in Neural Information Processing Systems (Vol. 36).'
 ---
+
+The persistent challenge of bias in machine learning models necessitates robust solutions to ensure parity and equal treatment across diverse groups, particularly in classification tasks. Current methods for mitigating bias often result in information loss and an inadequate balance between accuracy and fairness. To address this, we propose a novel methodology grounded in bilevel optimization principles. Our deep learning-based approach concurrently optimizes for both accuracy and fairness objectives, achieving Pareto optimal solutions while mitigating bias in the trained model. Theoretical analysis shows that the upper bound on the loss incurred by this method is less than or equal to the loss of the Lagrangian approach. We demonstrate the efficacy of our model on tabular datasets such as UCI Adult and Heritage Health, outperforming state-of-the-art fairness methods.

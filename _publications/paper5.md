@@ -1,10 +1,10 @@
 ---
-title: "Exploring the disparity of influence between users in the discussion of brexit on twitter: Twitter influence disparity in brexit if so, write it here"
+title: "Distraction is all you need for fairness"
 collection: publications
-permalink: /publication/Brexit
+permalink: /publication/Distraction
 excerpt: #'This paper is about the number 2. The number 3 is left for future work.'
-date: 2021-01-01
-venue: 'Journal of Computational Social Science'
+date: 2022-01-01
+venue: 'arXiv '
 paperurl: #'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Rajabi, A., Mantzaris, A. V., Atwal, K. S., & Garibay, I. (2021). Exploring the disparity of influence between users in the discussion of brexit on twitter: Twitter influence disparity in brexit if so, write it here. Journal of Computational Social Science, 4, 903-917.'
+citation: 'Yazdani-Jahromi, M., Rajabi, A., Tayebi, A., & Garibay, O. O. (2022). Distraction is all you need for fairness. arXiv preprint arXiv:2203.07593.'
 ---
