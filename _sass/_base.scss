@@ -13,7 +13,9 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: $background-color;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,7 +27,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700;
+  color: $darker-gray;
+  letter-spacing: 0.02em;
 }
 
 h1 {
@@ -248,8 +252,8 @@ figcaption {
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: #ffffff;
+      border-bottom-color: #ffffff;
     }
   }
 }

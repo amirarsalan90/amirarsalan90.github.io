@@ -12,7 +12,7 @@ redirect_from:
 
 Bio
 ======
-I am a computer scientist with a passion for Generative AI. After earning my Ph.D. from the University of Central Florida in December 2022, I've been working as a Machine Learning Engineer at Integral Ad Science. Prior to working at Integral Ad Science, I was a graduate research assistant at CASL at the University of Central Florida. 
+I am a computer scientist and Machine Learning Engineer at Integral Ad Science. I earned my Ph.D. from the University of Central Florida in December 2022, where I worked as a graduate research assistant at CASL. 
 
 
 
