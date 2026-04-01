@@ -159,9 +159,11 @@ td > code {
 
 hr {
   display: block;
-  margin: 1em 0;
+  margin: 2.5em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  height: 1px;
+  background: linear-gradient(to right, transparent, $primary-color, transparent);
+  opacity: 0.6;
 }
 
 /* lists */
