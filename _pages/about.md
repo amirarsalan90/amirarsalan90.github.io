@@ -12,7 +12,7 @@ redirect_from:
 
 Bio
 ======
-I am a Senior Data Scientist at Integral Ad Science, where I build and deploy large-scale LLM and vision-language systems — spanning distributed inference infrastructure, automated labeling pipelines, and production ML frameworks. I earned my Ph.D. from the University of Central Florida in December 2022, where I worked as a graduate research assistant at CASL.
+I am a Senior Machine Learning Engineer at Integral Ad Science, where I build and deploy large-scale LLM and vision-language systems — spanning distributed inference infrastructure, automated labeling pipelines, and production ML frameworks. I earned my Ph.D. from the University of Central Florida in December 2022, where I worked as a graduate research assistant at CASL.
 
 ---
 
