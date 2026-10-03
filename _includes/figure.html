@@ -1,0 +1,7 @@
+{% include base_path %}
+<figure class="paper__figure{% if include.class %} {{ include.class }}{% endif %}">
+  <div class="paper__plate"{% if include.width %} style="max-width: {{ include.width }}"{% endif %}>
+    <img src="{{ base_path }}{{ include.img }}" alt="{{ include.alt | default: include.caption | strip_html | escape }}" loading="lazy">
+  </div>
+  {% if include.caption %}<figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>{% endif %}
+</figure>

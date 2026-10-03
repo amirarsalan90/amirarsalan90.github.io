@@ -1,0 +1,14 @@
+{% include base_path %}
+<figure class="anim" data-anim="compare" data-duration="7">
+  <div class="compare">
+    <img src="{{ base_path }}/images/papers/lookingglass/faces_original.jpg" alt="Six CelebA test images" loading="lazy">
+    <img class="compare__top" src="{{ base_path }}/images/papers/lookingglass/faces_reconstructed.jpg" alt="The same six images after the de-biasing U-Net" loading="lazy">
+    <span class="compare__edge" aria-hidden="true"></span>
+    <span class="compare__label compare__label--left">Original</span>
+    <span class="compare__label compare__label--right">Reconstructed</span>
+  </div>
+  <div class="anim__bar">
+    <figcaption class="anim__caption">CelebA test images before and after the trained U-Net. The changes are subtle, mostly texture and facial detail, and they are enough to reduce the statistical dependence between <i>Attractive</i> and <i>Gender</i>. Drag across the image to compare.</figcaption>
+    <button type="button" class="anim__toggle" aria-label="Pause animation"><i class="fas fa-pause" aria-hidden="true"></i></button>
+  </div>
+</figure>

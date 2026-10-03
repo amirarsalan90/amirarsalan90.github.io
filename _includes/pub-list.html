@@ -1,0 +1,16 @@
+{% include base_path %}
+{% comment %} Publications, newest first. include.selected=true → featured only (with thumbnails); false → the rest as a compact list. {% endcomment %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% if include.selected %}
+  {% for p in pubs %}{% if p.featured %}{% include pub-selected.html paper=p %}{% endif %}{% endfor %}
+{% else %}
+<ul class="pub-list">
+  {% for p in pubs %}{% unless p.featured and include.skip_featured %}
+  <li class="pub-list__item">
+    <a class="pub__title" href="{{ base_path }}{{ p.url }}">{{ p.title }}</a>
+    {% if p.authors %}<span class="pub__authors">{{ p.authors | markdownify | remove: "<p>" | remove: "</p>" }}</span><br>{% endif %}
+    <span class="pub__venue"><i>{{ p.venue_short | default: p.venue }}</i></span>
+  </li>
+  {% endunless %}{% endfor %}
+</ul>
+{% endif %}

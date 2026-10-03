@@ -1,0 +1,10 @@
+{% include base_path %}
+{% assign p = include.paper %}
+{% if p.links %}
+<p class="paper__links">
+  {% if p.links.paper %}<a class="paper__link" href="{{ p.links.paper }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Paper</a>{% endif %}
+  {% if p.links.arxiv %}<a class="paper__link" href="{{ p.links.arxiv }}"><i class="fas fa-box-archive" aria-hidden="true"></i> arXiv</a>{% endif %}
+  {% if p.links.code %}<a class="paper__link" href="{{ p.links.code }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>{% endif %}
+  {% if p.bibtex and include.page_link %}<a class="paper__link" href="{{ base_path }}{{ p.url }}#citation"><i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX</a>{% elsif p.bibtex %}<a class="paper__link" href="#citation"><i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX</a>{% endif %}
+</p>
+{% endif %}

@@ -1,0 +1,14 @@
+{% include base_path %}
+{% assign p = include.paper %}
+<article class="pub-selected">
+  <a class="pub-selected__thumb{% if p.teaser_photo %} pub-selected__thumb--photo{% endif %}" href="{{ base_path }}{{ p.url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ base_path }}{{ p.teaser }}" alt="" loading="lazy">
+  </a>
+  <div class="pub-selected__body">
+    <h3><a href="{{ base_path }}{{ p.url }}">{{ p.title }}</a></h3>
+    {% if p.authors %}<p class="pub__authors">{{ p.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+    <p class="pub__venue"><i>{{ p.venue_short | default: p.venue }}</i></p>
+    {% if p.tldr %}<p class="pub__tldr">{{ p.tldr }}</p>{% endif %}
+    {% include paper-links.html paper=p page_link=true %}
+  </div>
+</article>
